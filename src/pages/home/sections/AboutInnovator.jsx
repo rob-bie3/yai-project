@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const aboutInnovator = () => {
+const AboutInnovator = () => {
   return (
-    <div>aboutInnovator</div>
-  )
-}
+    <div className="p-6 flex justify-center items-center align-middle h-[60vh] border-b-2">
+      <h4 className="text-4xl font-bold">About the Innovator</h4>
+    </div>
+  );
+};
 
-export default aboutInnovator
+export default AboutInnovator;
