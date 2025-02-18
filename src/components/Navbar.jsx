@@ -16,8 +16,8 @@ const Navbar = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <a href="#home" className="text-gray-800 hover:text-green-600">Home</a>
-            <a href="#about-product" className="text-gray-800 hover:text-green-600">About Product</a>
-            <a href="#about-innovator" className="text-gray-800 hover:text-green-600">About Innovator</a>
+            <a href="#about-product" className="text-gray-800 hover:text-green-600">About </a>
+            <a href="#about-innovator" className="text-gray-800 hover:text-green-600">Company</a>
             <a href="#products" className="text-gray-800 hover:text-green-600">Products</a>
             <a href="#contact" className="text-gray-800 hover:text-green-600">Contact</a>
             <a href="#contact" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">Get in Touch</a>
@@ -34,8 +34,8 @@ const Navbar = () => {
       {navOpen && (
         <div className="md:hidden bg-white shadow-md">
           <a href="#home" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Home</a>
-          <a href="#about-product" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">About Product</a>
-          <a href="#about-innovator" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">About Innovator</a>
+          <a href="#about-product" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">About</a>
+          <a href="#about-innovator" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Company</a>
           <a href="#products" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Products</a>
           <a href="#contact" className="block px-4 py-2 text-gray-800 hover:bg-gray-100">Contact</a>
         </div>
