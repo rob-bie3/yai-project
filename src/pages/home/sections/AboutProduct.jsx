@@ -1,11 +1,15 @@
 import React from 'react';
 import { FaLeaf, FaRecycle, FaSeedling } from 'react-icons/fa';
+import decor2 from "../../../assets/images/decor2.png.webp"
 
 const AboutProduct = () => {
   return (
     <section id="about-product" className="py-16 bg-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold text-green-600 mb-8">About the Product</h2>
+        <h2 className="text-4xl font-bold text-[#527a1a] mb-2">About the Product</h2>
+         <div className="flex justify-center items-center mb-6">
+             <img src={decor2} alt="decor2" />
+             </div>
         <p className="text-lg mb-12">
           Our cost-effective agro-processing machines are crafted from recycled metal scraps, helping farmers extend the shelf life of their produce while promoting sustainability and food security.
         </p>
