@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "./sections/Hero";
-import AboutInnovator from "./sections/aboutInnovator";
+import AboutInnovator from "./sections/AboutInnovator"
 import AboutProduct from "./sections/AboutProduct";
 import Showcase from "./sections/Showcase";
 import Contact from "./sections/Contact";
@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Hero/>
       <AboutProduct/>
-      <AboutInnovator/>
+    <AboutInnovator/>
       <Showcase/>
       <Contact/>
     </div>
