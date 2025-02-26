@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import logo from '../assets/images/logo.jpg'
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -7,20 +8,20 @@ const Navbar = () => {
   const toggleNav = () => setNavOpen(!navOpen);
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-10 top-0">
+    <nav className="bg-[#F7F7F7] shadow-md fixed w-full z-10 top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-green-600">AgroMech</h1>
+            <img src={logo} alt="logo" className="w-20 h-16  " />
           </div>
 
           <div className="hidden md:flex items-center space-x-4">
             <a href="#home" className="text-gray-800 hover:text-green-600">Home</a>
-            <a href="#about-product" className="text-gray-800 hover:text-green-600">About </a>
-            <a href="#about-innovator" className="text-gray-800 hover:text-green-600">Company</a>
-            <a href="#products" className="text-gray-800 hover:text-green-600">Products</a>
-            <a href="#contact" className="text-gray-800 hover:text-green-600">Contact</a>
-            <a href="#contact" className="bg-green-600 text-white px-4 py-2 rounded-md hover:bg-green-700">Get in Touch</a>
+            <a href="#about-product" className="text-gray-800 hover:text-green-600">About Product </a>
+            <a href="#about-innovator" className="text-gray-800 hover:text-green-600">About Me</a>
+            <a href="#showcase" className="text-gray-800 hover:text-green-600">Product</a>
+            {/* <a href="#contact" className="text-gray-800 hover:text-green-600">Contact</a> */}
+            <a href="#contact" className="bg-[#D98D31] text-white px-4 py-2 rounded-md hover:bg-[#ffa435]">Get in Touch</a>
           </div>
 
           <div className="md:hidden flex items-center">

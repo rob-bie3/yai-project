@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTiktok, } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -29,18 +29,18 @@ const Footer = () => {
         <div>
           <h3 className="text-white text-2xl font-bold mb-4">Contact Info</h3>
           <div className="flex space-x-4 mb-4">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/share/1BSnC9heY5/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
               <FaFacebookF className="text-2xl hover:text-white" />
             </a>
-            <a href="https://wa.me/233123456789" target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp className="text-2xl hover:text-white" />
+            <a href="https://www.tiktok.com/@ktakyi.enterprise?_t=ZM-8uC2YsQFuIJ&_r=1" target="_blank" rel="noopener noreferrer">
+              <FaTiktok className="text-2xl hover:text-white" />
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/ktakyienterprise?igsh=M2l5dzBhamI3dWtn&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-2xl hover:text-white" />
             </a>
           </div>
-          <p>Email: <a href="mailto:info@innovator.com" className="hover:text-white">info@innovator.com</a></p>
-          <p>Phone: <a href="tel:+233123456789" className="hover:text-white">+233123456789</a></p>
+          <p>Email: <a href="ktakyi801@gmail.com" className="hover:text-white">info@innovator.com</a></p>
+          <p>Phone: <a href="+233 55 347 1801" className="hover:text-white">+233123456789</a></p>
         </div>
       </div>
 

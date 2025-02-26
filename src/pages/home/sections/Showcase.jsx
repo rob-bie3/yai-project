@@ -1,42 +1,45 @@
 import React from 'react';
 import decor2 from '../../../assets/images/decor2.png.webp'
-import machine from '../../../assets/images/machine.png'
+import pic6 from '../../../assets/images/pic6.jpeg'
+import pic7 from '../../../assets/images/pic7.jpeg'
+import pic8 from '../../../assets/images/pic8.jpeg'
+import pic9 from '../../../assets/images/pic9.jpeg'
 
 const Showcase = () => {
   const products = [
     {
       name: "Oven",
-      price: 215, // GHS 17.99 * 12 (approximate conversion)
-      image: machine,
-      description: "Fresh, juicy strawberries picked at peak ripeness. Perfect for desserts or healthy snacking.",
+      price: 215, 
+      image: pic6,
+      description: "Handmade from the scratch oven with metal scraps.",
      
     },
     {
       name: " Oven",
-      price: 119, // GHS 9.99 * 12 (approximate conversion)
-      image: machine,
-      description: "Freshly baked artisanal bread made with premium ingredients. Crusty outside, soft inside."
+      price: 119, 
+      image: pic7,
+      description: "Handmade from the scratch oven with metal scraps."
     },
     {
       name: "Oven",
-      price: 719, // GHS 59.99 * 12 (approximate conversion)
-      image: machine,
-      description: "Premium quality beef cuts, perfectly marbled and aged for maximum flavor."
+      price: 719, 
+      image: pic8,
+      description: "Handmade from the scratch oven with metal scraps."
     },
     {
       name: "Oven",
-      price: 239.00, // GHS 19.99 * 12 (approximate conversion)
-      image: machine,
-      description: "100% pure, natural honey. Harvested from local bee farms.",
+      price: 239.00, 
+      image: pic9,
+      description: "Handmade from the scratch oven with metal scraps.",
      
     }
   ];
 
   return (
-    <div className="py-16 px-6">
+    <div id="products" className="py-16 px-6">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4">
-          <span className="text-[#75B343]">Our Product</span> Are Highest Quality
+          <span className="text-[#D98D31]">Introducing</span> My Hybrid Oven
         </h2>
 
          <div className="flex justify-center items-center mb-6">
@@ -64,7 +67,7 @@ const Showcase = () => {
                 {product.description}
               </p>
               
-              <div className="flex items-center justify-between">
+              {/* <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                   {product.originalPrice ? (
                     <>
@@ -77,7 +80,7 @@ const Showcase = () => {
                 </div>
                 
               
-              </div>
+              </div> */}
             </div>
           </div>
         ))}

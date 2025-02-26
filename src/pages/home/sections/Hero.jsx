@@ -32,7 +32,7 @@ useEffect(() => {
           Cost-effective agro-processing machines made from recycled metal scraps to extend produce shelf life and reduce waste.
         </p>
         <div className="flex space-x-4">
-          <a href="#products" className="bg-green-600 hover:bg-green-700 px-12 py-3 rounded-md">Explore Products</a>
+          <a href="#products" className="bg-[#D98D31] hover:bg-[#b97725] px-12 py-3 rounded-md">Explore Products</a>
         </div>
       </div>
     </section>

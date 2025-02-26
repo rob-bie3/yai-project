@@ -6,7 +6,7 @@ const AboutProduct = () => {
   return (
     <section id="about-product" className="py-16 bg-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold text-[#527a1a] mb-2">About the Product</h2>
+        <h2 className="text-4xl font-bold text-[#D98D31] mb-2">About the Product</h2>
          <div className="flex justify-center items-center mb-6">
              <img src={decor2} alt="decor2" />
              </div>
@@ -16,7 +16,7 @@ const AboutProduct = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-            <FaLeaf className="text-green-600 text-5xl mx-auto mb-4" />
+            <FaLeaf className="text-[#ffa435] text-5xl mx-auto mb-4" />
             <h3 className="text-2xl font-semibold mb-2">Eco-Friendly Design</h3>
             <p>
               Built from recycled metal scraps to minimize environmental impact.
@@ -24,7 +24,7 @@ const AboutProduct = () => {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-            <FaRecycle className="text-green-600 text-5xl mx-auto mb-4" />
+            <FaRecycle className="text-[#ffa435] text-5xl mx-auto mb-4" />
             <h3 className="text-2xl font-semibold mb-2">Sustainable Solution</h3>
             <p>
               Promotes circular economy by repurposing waste materials.
@@ -32,7 +32,7 @@ const AboutProduct = () => {
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-            <FaSeedling className="text-green-600 text-5xl mx-auto mb-4" />
+            <FaSeedling className="text-[#ffa435] text-5xl mx-auto mb-4" />
             <h3 className="text-2xl font-semibold mb-2">Enhanced Productivity</h3>
             <p>
               Boosts agricultural productivity and reduces post-harvest losses.
