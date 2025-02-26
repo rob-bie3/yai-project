@@ -21,7 +21,7 @@ useEffect(() => {
   return (
     <section
       id="home"
-      className="h-screen bg-cover bg-center text-white flex flex-col justify-center"
+      className="h-screen bg-cover bg-center text-white flex flex-col justify-center font-serif"
       style={{ backgroundImage: `url(${images[currentImageIndex]})`, }}
     >
       <div className="bg-black bg-opacity-10 h-full w-full flex flex-col justify-center items-center">
