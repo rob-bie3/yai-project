@@ -55,7 +55,7 @@ const Showcase = () => {
   };
 
   return (
-    <section id="showcase" className="py-16 px-6 bg-[#eee1ca] font-serif overflow-hidden">
+    <section id="showcase" className="py-16 px-6 bg-[#f8f5f0] font-serif overflow-hidden">
       <motion.div 
         className="max-w-7xl mx-auto"
         variants={containerVariants}
