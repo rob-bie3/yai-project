@@ -5,9 +5,9 @@ import logo from '../assets/images/logo2.jpeg';
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <FaFacebook />, name: 'Facebook', url: '#' },
-    { icon: <FaTwitter />, name: 'Twitter', url: '#' },
-    { icon: <FaInstagram />, name: 'Instagram', url: '#' },
+    { icon: <FaFacebook />, name: 'Facebook', url: 'https://www.facebook.com/share/1BSnC9heY5/?mibextid=wwXIfr' },
+    { icon: <FaTwitter />, name: 'Twitter', url: 'https://www.tiktok.com/@ktakyi.enterprise?_t=ZM-8uC2YsQFuIJ&_r=1' },
+    { icon: <FaInstagram />, name: 'Instagram', url: 'https://www.instagram.com/ktakyienterprise?igsh=M2l5dzBhamI3dWtn&utm_source=qr' },
   ];
 
   const footerVariants = {
@@ -85,6 +85,8 @@ const Footer = () => {
                 <motion.a
                   key={index}
                   href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center justify-center md:justify-start w-full space-x-3 text-gray-700 hover:text-gray-900 transition-colors duration-300 group"
                   whileHover={{ x: 5 }}
                 >

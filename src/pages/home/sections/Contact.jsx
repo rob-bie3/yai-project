@@ -59,12 +59,10 @@ const Contact = () => {
         <span className="text-[#D98D31]">Contact</span> Me
       </motion.h1>
 
-      <motion.div 
-        className="flex justify-center items-center mb-6 w-full max-w-md"
-        variants={itemVariants}
-      >
-        <img src={decor2} alt="decor2" className="flex justify-center items-center mb-6" />
-      </motion.div>
+      <motion.div variants={itemVariants} className="flex items-center mb-6">
+            <div className="h-1 w-20 bg-[#D98D31]"></div>
+            
+          </motion.div>
 
       <div className="container mx-auto flex flex-col md:flex-row gap-8 px-6 w-full max-w-5xl">
         {/* Left Section - Contact Info */}

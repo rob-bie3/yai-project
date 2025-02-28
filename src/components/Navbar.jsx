@@ -81,7 +81,7 @@ const Navbar = () => {
             </a>
           </div>
 
-          <div className="md:hidden flex items-center">
+          <div className="md:hidden flex items-center text-[#D98D31]">
             <button onClick={toggleNav}>
               {navOpen ? <AiOutlineClose className="w-6 h-6" /> : <AiOutlineMenu className="w-6 h-6" />}
             </button>

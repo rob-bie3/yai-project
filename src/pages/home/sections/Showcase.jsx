@@ -1,11 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaSearchPlus } from 'react-icons/fa';
-import decor2 from '../../../assets/images/decor2.png.webp'
-import pic6 from '../../../assets/images/pic6.jpeg'
-import pic7 from '../../../assets/images/pic7.jpeg'
-import pic8 from '../../../assets/images/pic8.jpeg'
-import pic9 from '../../../assets/images/pic9.jpeg'
+import { FaFire } from 'react-icons/fa';
+import pic6 from '../../../assets/images/pic6.jpeg';
+import pic7 from '../../../assets/images/pic7.jpeg';
+import pic8 from '../../../assets/images/pic8.jpeg';
+import pic9 from '../../../assets/images/pic9.jpeg';
 
 const Showcase = () => {
   const products = [
@@ -13,25 +12,29 @@ const Showcase = () => {
       name: "Industrial Hybrid Oven",
       image: pic6,
       description: "High-capacity hybrid oven crafted from recycled metal scraps, perfect for commercial use.",
-      features: ["Energy Efficient", "Durable Build", "Large Capacity"]
+      features: ["Energy Efficient", "Durable Build", ],
+      price: "₵5,000"
     },
     {
       name: "Standard Hybrid Oven",
       image: pic7,
       description: "Medium-sized hybrid oven designed for small businesses and community use.",
-      features: ["Cost Effective", "Easy to Use", "Versatile"]
+      features: ["Easy to Use", "Versatile"],
+      price: "₵3,500"
     },
     {
       name: "Premium Hybrid Oven",
       image: pic8,
       description: "Advanced hybrid oven with enhanced features and superior performance.",
-      features: ["Premium Quality", "Enhanced Control", "Eco-Friendly"]
+      features: [ "Enhanced Control", "Eco-Friendly"],
+      price: "₵7,000"
     },
     {
       name: "Compact Hybrid Oven",
       image: pic9,
       description: "Space-saving hybrid oven perfect for small-scale operations.",
-      features: ["Space Efficient", "Portable", "User Friendly"]
+      features: ["Space Efficient", "Portable"],
+      price: "₵2,800"
     }
   ];
 
@@ -67,9 +70,9 @@ const Showcase = () => {
           <h2 className="text-4xl font-bold mb-4">
             <span className="text-[#D98D31]">Introducing</span> My Hybrid Oven
           </h2>
-          <div className="flex justify-center items-center mb-6">
-            <img src={decor2} alt="decor2" className="w-32" />
-          </div>
+          <motion.div variants={itemVariants} className="flex items-center justify-center mb-6">
+            <div className="h-1 w-20 bg-[#D98D31]"></div>
+          </motion.div>
           <p className="max-w-2xl mx-auto text-gray-700 text-lg">
             Discover our range of innovative hybrid ovens, crafted with care using recycled materials
             to bring sustainable solutions to your business.
@@ -84,14 +87,17 @@ const Showcase = () => {
               whileHover={{ y: -10 }}
               className="bg-white rounded-xl shadow-lg overflow-hidden transform transition-all duration-300 hover:shadow-2xl"
             >
-              <div className="relative group h-64 overflow-hidden">
+              <div className="relative h-64 overflow-hidden flex items-center justify-center">
                 <img 
                   src={product.image} 
                   alt={product.name} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <FaSearchPlus className="text-white text-3xl transform scale-0 group-hover:scale-100 transition-transform duration-300" />
+                {/* Centered Fire Icon */}
+                <div className="absolute z-10 flex pt-60 justify-center">
+                  <div className="bg-white p-3 rounded-full shadow-md">
+                    <FaFire className="text-[#D98D31] text-3xl" />
+                  </div>
                 </div>
               </div>
 
@@ -110,6 +116,7 @@ const Showcase = () => {
                     </div>
                   ))}
                 </div>
+                <div className="mt-4 text-lg font-bold text-gray-800">{product.price}</div>
               </div>
             </motion.div>
           ))}
