@@ -40,8 +40,8 @@ const Footer = () => {
               className="h-32 w-40 mb-4 mx-auto md:mx-0 rounded-lg"
             />
             <p className="text-gray-700 text-base leading-relaxed">
-              Innovative agro-processing machines crafted from recycled materials, 
-              empowering farmers and promoting sustainability.
+              Innovative hybrid ovens crafted from high quality materials, 
+              empowering small industries and households and promoting sustainability.
             </p>
           </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import decor2 from "../../../assets/images/decor2.png.webp";
+
 
 const Contact = () => {
   const containerVariants = {
@@ -37,7 +37,7 @@ const Contact = () => {
     },
     {
       icon: <FaMapMarkerAlt className="text-xl md:text-2xl text-[#D98D31]" />,
-      text: "768/A, Green lane 790, Max town New York",
+      text: "Cape-Coast Elmina Highway, close to Hatchland Beach",
       href: "#",
     },
   ];

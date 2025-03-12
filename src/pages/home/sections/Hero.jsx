@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import hero1 from "../../../assets/images/hero1.png"
-import hero2 from "../../../assets/images/hero2.png"
+import hero1 from "../../../assets/images/hero3.jpg"
+import hero2 from "../../../assets/images/logo4.jpg"
 
 
 const Hero = () => {
@@ -24,12 +24,12 @@ useEffect(() => {
       className="h-screen bg-cover bg-center text-white flex flex-col justify-center font-serif"
       style={{ backgroundImage: `url(${images[currentImageIndex]})`, }}
     >
-      <div className="bg-black bg-opacity-10 h-full w-full flex flex-col justify-center items-center">
+      <div className="bg-black  text-[#ffffff] bg-opacity-30 h-full w-full flex flex-col justify-center items-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
-          Empowering Farmers with Sustainable Solutions
+          Revolutionizing Heat & Efficiency <br />The Hybrid Oven Innovation
         </h1>
         <p className="text-lg md:text-2xl mb-8 text-center max-w-3xl">
-          Cost-effective agro-processing machines made from recycled metal scraps to extend produce shelf life and reduce waste.
+          Pioneering a new era in fabrication, our cutting-edge hybrid oven blends innovation with sustainability.
         </p>
         <div className="flex space-x-4">
           <a href="#showcase" className="bg-[#D98D31] hover:bg-[#b97725] px-12 py-3 rounded-md">Explore Products</a>

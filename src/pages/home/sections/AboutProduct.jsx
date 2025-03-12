@@ -80,8 +80,7 @@ const AboutProduct = () => {
             </motion.div>
 
             <motion.p variants={itemVariants} className="text-lg mb-12 text-gray-700">
-              Our cost-effective agro-processing machines are crafted from recycled metal scraps, helping farmers extend
-              the shelf life of their produce while promoting sustainability and food security.
+              Our cost-effective  hybrid ovens are designed to maximize efficiency and durability. This technology is set to tansform the way small industries and households experience heating solutions. Experience the future of fabrication today!
             </motion.p>
 
             <div className="space-y-12">
@@ -92,7 +91,7 @@ const AboutProduct = () => {
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">Eco-Friendly Design</h3>
                   <p className="text-gray-600">
-                    Built from recycled metal scraps to minimize environmental impact.
+                    Built with high quality materials like metal plates, metal square pipes, rivets and iron rods. Designed to bake a variety of products efficiently
                   </p>
                 </div>
               </motion.div>
@@ -104,7 +103,7 @@ const AboutProduct = () => {
                 <div>
                   <h3 className="text-2xl font-semibold mb-3">Sustainable Solution</h3>
                   <p className="text-gray-600">
-                    Promotes circular economy by repurposing waste materials.
+                    Optimized for long-term energy efficiency. Durable, and reduces environmental impact with a  smart heating mechanism.
                   </p>
                 </div>
               </motion.div>

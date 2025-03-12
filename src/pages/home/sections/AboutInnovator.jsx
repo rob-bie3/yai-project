@@ -39,15 +39,14 @@ const AboutInnovator = () => {
             
           </motion.div>
                     <p className="text-gray-700 leading-relaxed">
-                        Francis is a local innovator based in Cape Coast, Central Region, committed to solving post-harvest losses
-                        through innovative, cost-effective agro-processing machines made from recycled materials.
+                        Francis is a passionate local innovator based in Cape Coast, Central Region, dedicated to crafting practical and sustainable solutions. Despite facing the challenges of being an amputee, his determination and ingenuity drive him to push boundaries in metal fabrication.  Motivated by his family, Francis continues to develop cost-effective, eco-friendly technologies, including his latest project- the Hybrid Oven- designed to enhance efficiency and sustainability. 
                     </p>
                     
                     {/* Key Points */}
                     <div className="space-y-4">
-                        {[{ icon: <FaUserTie />, title: "Local Innovator", desc: "Bringing innovation to local communities" },
-                        { icon: <FaLightbulb />, title: "Problem Solver", desc: "Dedicated to solving post-harvest losses" },
-                        { icon: <FaCheckCircle />, title: "Community Impact", desc: "Empowering farming communities" }].map((point, index) => (
+                        {[{ icon: <FaUserTie />, title: "Local Innovator", desc: "Combines creativity and skill to develop solutions tailored to local needs." },
+                        { icon: <FaLightbulb />, title: "Problem Solver", desc: "Transforms challenges into opportunities." },
+                        { icon: <FaCheckCircle />, title: "Community Impact", desc: "Inspire others to embrace creativity and resilience in problem-solving." }].map((point, index) => (
                             <motion.div key={index} className="flex items-center space-x-4" variants={itemVariants}>
                                 <div className="p-3 bg-[#6B8E23]/10 rounded-lg text-[#D98D31] text-2xl">
                                     {point.icon}
@@ -72,7 +71,7 @@ const AboutInnovator = () => {
         
         <div className="absolute bottom-0 right-0 bg-[#D98D31] text-white p-4 md:p-6 rounded-tl-lg shadow-lg opacity-0 transition-opacity duration-700 hover:opacity-100">
             <p className="text-sm md:text-base italic">
-                "Innovating for sustainability, Francis transforms metal scraps into cost-effective agro-processing machines."
+                "Innovation is not just about creating something new; it's about solving real problems. My journey has taught me that challenges are just stepping stones to greater possibilities."
             </p>
             <p className="text-sm font-semibold mt-2">- Francis, Innovator</p>
         </div>

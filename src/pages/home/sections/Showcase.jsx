@@ -9,32 +9,28 @@ import pic9 from '../../../assets/images/pic9.jpeg';
 const Showcase = () => {
   const products = [
     {
-      name: "Industrial Hybrid Oven",
+      name: "Hybrid Oven",
       image: pic6,
       description: "High-capacity hybrid oven crafted from recycled metal scraps, perfect for commercial use.",
       features: ["Energy Efficient", "Durable Build", ],
-      price: "₵5,000"
     },
     {
-      name: "Standard Hybrid Oven",
+      name: "Hybrid Oven",
       image: pic7,
       description: "Medium-sized hybrid oven designed for small businesses and community use.",
       features: ["Easy to Use", "Versatile"],
-      price: "₵3,500"
     },
     {
-      name: "Premium Hybrid Oven",
+      name: "Hybrid Oven",
       image: pic8,
       description: "Advanced hybrid oven with enhanced features and superior performance.",
       features: [ "Enhanced Control", "Eco-Friendly"],
-      price: "₵7,000"
     },
     {
-      name: "Compact Hybrid Oven",
+      name: "Hybrid Oven",
       image: pic9,
       description: "Space-saving hybrid oven perfect for small-scale operations.",
       features: ["Space Efficient", "Portable"],
-      price: "₵2,800"
     }
   ];
 
@@ -74,8 +70,7 @@ const Showcase = () => {
             <div className="h-1 w-20 bg-[#D98D31]"></div>
           </motion.div>
           <p className="max-w-2xl mx-auto text-gray-700 text-lg">
-            Discover our range of innovative hybrid ovens, crafted with care using recycled materials
-            to bring sustainable solutions to your business.
+            Discover our range of innovative hybrid ovens. Designed for efficiency and sustainability, this cutting-edge hybrid oven is built to revolutionize baking and heat solutions. Crafted with precision, it offers durability versality and eco-friendly performance for both industrial and home use.
           </p>
         </motion.div>
 
@@ -116,7 +111,7 @@ const Showcase = () => {
                     </div>
                   ))}
                 </div>
-                <div className="mt-4 text-lg font-bold text-gray-800">{product.price}</div>
+               
               </div>
             </motion.div>
           ))}
